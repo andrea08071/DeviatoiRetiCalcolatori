@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+  }
+  h1 {
+    font-size: 300%;
+    color: blue;
+  }
+  h2{
+    font-size: 200%;
+  }
+  p{
+    font-size: 90%;
+  }
+  .tipo1 {
+    font-style: italic;
+    color:coral;
+  }
+  .tipo2{
+    font-weight: 400;
+    color:crimson;
+  }
+  .immagini-container {
+    display: flex;
+    justify-content: space-between; /* Assicura che le immagini siano distribuite ai lati opposti */
+    align-items: center;
+    gap: 20px; /* Aggiunge spazio tra le immagini */
+    margin-top: 20px; /* Spazio aggiuntivo sopra le immagini */
+}
+.img-sinistra, .img-destra {
+    width: 48%; /* Mantiene le immagini a una dimensione appropriata */
+}
+  a {
+    font-weight: bold;
+  }
+  
+  
